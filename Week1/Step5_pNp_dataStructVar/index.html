@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Step5 pNp DataStrucVar </title>
+</head>
+<body>
+    <h1>Step 5: Complete the Pause and Practice: Data Structures and Variables </h1>
+    <h2>Grocery List for Hamburgers</h2>
+    
+
+    <p>First you will need to pick up ...</p>
+    <p id="shopperVar"></p>
+    <script>
+       
+        var shopper = {
+            grHamburger: "Ground Beef",
+            weightLbs: 1,
+            groceryCarts: ["lettuce " , "onion " , "tomato "],
+            hasCheese : true,
+            shopperList : function(){
+                return this.weightLbs + "Lbs " + this.grHamburger + " " + this.groceryCarts 
+            }
+            };
+
+        document.getElementById("shopperVar").innerHTML = shopper.shopperList();
+    </script>
+</body>
+</html>
