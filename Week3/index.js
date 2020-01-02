@@ -1,3 +1,5 @@
+//Complete the Pause and Practice: JavaScript Loops, Nesting Loops
+
 //Loop through the following array and count how many "computers" there are. Log the final count:
 var officeItemsArray = [
     "stapler",
