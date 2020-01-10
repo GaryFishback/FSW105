@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/denaled/FSW105/issues"
   },
-  "homepage": "https://github.com/denaled/FSW105#readme"
+  "homepage": "https://github.com/denaled/FSW105#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
