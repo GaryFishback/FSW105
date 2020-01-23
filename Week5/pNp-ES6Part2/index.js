@@ -62,9 +62,9 @@ console.log(produceProduct(a,b))
 function printString (firstName = 'Jane', lastName = 'Doe', age = 100){
     //return "Hi " + firstName + " " + lastName + " how does it fell to be " + age
     // NOTE: Template literals need the back tick `
-    return `Hi ${firstName} ${lastName} how does it feel to be ${age}`
+    return `Hi ${firstName} ${lastName} how does it feel to be ${age}` // isnt this #6 ?
 }
-console.log(printString("Dean"))
+console.log(printString("Kat", "Stark", 40))
 
 const animals = [
     {type: "dog", name: "theodore"},
