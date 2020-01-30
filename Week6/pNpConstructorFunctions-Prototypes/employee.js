@@ -1,4 +1,4 @@
-
+ 
 var employees = []
 
 function Employee(name,jobTitle, salary, status){
@@ -18,7 +18,6 @@ var employee2 = new Employee("Steve", "President", "100k", "Fulltime")
 var employee3 = new Employee("Suzy", "Bookeeper", "45k" , "Fulltime")
 //Override the status attribute of one of them to either "Part Time" or "Contract"
 employee2.changeStatus("Part-Time")
-
 employee1.printEmployeeForm(employee1)
 employee2.printEmployeeForm(employee2)
 employee3.printEmployeeForm(employee3)
